@@ -1,0 +1,107 @@
+/* body styles */
+/* common styles and utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    align-items: center;
+}
+
+.container {
+    width: 850px;
+    height: 960px;
+    padding: 150px;
+    border: 5px;
+
+    margin: 20px;
+
+
+
+
+}
+
+/* popular collection styles */
+.horizontal-bar {
+    width: 1000px;
+    height: 110px;
+
+    padding-left: 180px;
+}
+
+.hr {
+    color:
+        Linear Gradient #C0CCDA 10% #C0CCDA 60% #C0CCDA 10%;
+}
+
+.logos {
+    display: flex;
+    width: 986.47px;
+    height: 39.61px;
+}
+
+.logo-name {
+    width: 100%;
+
+
+}
+
+.popular-collection {
+    align-items: center;
+}
+
+.section-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.photo-banner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    align-items: center;
+}
+
+.photo {
+
+
+    width: 329px;
+    height: 476px;
+    border: 1px solid;
+
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+
+.photo .image img {
+    width: 300px;
+    height: 256px;
+    padding-left: 14px;
+
+
+}
+
+.image-details {
+    margin-left: 14px;
+}
+
+
+
+.fa-star .filled {
+    font-size: 12px;
+}
+
+.filled {
+    color: #FFC014;
+}
+
+.description {
+    font-size: 15px;
+}
